@@ -11,3 +11,9 @@ let otherStr = "Hi Chen" // let string cannot be changed
 //strings
 
 var Name = "ChenLiu"
+
+var myInt = 8
+
+print("myInt has value \(myInt)")
+
+print("my name is \(Name) and my age is \(myInt)")
