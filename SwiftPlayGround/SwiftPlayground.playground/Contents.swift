@@ -21,3 +21,8 @@ print("my name is \(Name) and my age is \(myInt)")
 //Doubles
 
 var a = 1.23
+
+var b = 1.2
+
+print (a / b)
+
