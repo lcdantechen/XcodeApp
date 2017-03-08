@@ -37,3 +37,14 @@ var gameOverString = String(gameOver)
 // Array
 
 var array = [12, 22, 4]
+
+// Dictionary 
+
+let dictionary = ["a": "valueA", "b": "valueB"]
+
+print (dictionary["a"]!)
+
+
+
+
+
