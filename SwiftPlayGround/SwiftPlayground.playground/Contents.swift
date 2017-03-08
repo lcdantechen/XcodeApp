@@ -33,3 +33,7 @@ var c: Double = 2.23
 let gameOver = false
 
 var gameOverString = String(gameOver)
+
+// Array
+
+var array = [12, 22, 4]
