@@ -26,3 +26,10 @@ var b = 1.2
 
 print (a / b)
 
+var c: Double = 2.23
+
+//Boolean 
+
+let gameOver = false
+
+var gameOverString = String(gameOver)
