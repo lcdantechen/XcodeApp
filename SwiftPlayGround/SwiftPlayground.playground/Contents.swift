@@ -17,3 +17,7 @@ var myInt = 8
 print("myInt has value \(myInt)")
 
 print("my name is \(Name) and my age is \(myInt)")
+
+//Doubles
+
+var a = 1.23
