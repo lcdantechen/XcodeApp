@@ -45,6 +45,13 @@ let dictionary = ["a": "valueA", "b": "valueB"]
 print (dictionary["a"]!)
 
 
+// random number
+
+let randomNumber = arc4random_uniform(6)
+
+
+
+
 
 
 
