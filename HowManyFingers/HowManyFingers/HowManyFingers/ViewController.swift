@@ -21,7 +21,7 @@ class ViewController: UIViewController {
         let randomNumber = String(arc4random_uniform(6))
         
         if fingerInput.text == randomNumber {
-            guessResult.text = "Yay, you got it right"
+            guessResult.text = "Yay, you got it right. Now kiss me"
         } else {
             guessResult.text = "Try one more time! It was a " + randomNumber + "."
         }
