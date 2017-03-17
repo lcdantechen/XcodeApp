@@ -49,7 +49,28 @@ print (dictionary["a"]!)
 
 let randomNumber = arc4random_uniform(6)
 
+// while loop
 
+//var i = 1
+//
+//while i < 10 {
+//    print (i)
+//    i += 1
+//}
+
+var array = [7, 23, 98, 1, 0, 763]
+
+i = 0
+
+while i < array.count {
+    
+      print(i)
+    
+      array[i] += 1
+      i += 1
+}
+
+print(array)
 
 
 
