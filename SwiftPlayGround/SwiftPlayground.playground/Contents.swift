@@ -58,21 +58,25 @@ let randomNumber = arc4random_uniform(6)
 //    i += 1
 //}
 
-var array = [7, 23, 98, 1, 0, 763]
 
-i = 0
+//create an array with 4 names of friends 
 
-while i < array.count {
+let familyMembers = ["chen", "vi", "yan"]
+
+for familiyMember in familyMembers {
+    print("Hi there " + familiyMember + "!")
+}
+//array containing 8, 7, 19, 28, half each of the values
+
+var myArray = [Double]()
     
-      print(i)
-    
-      array[i] += 1
-      i += 1
+myArray = [8, 7, 19, 28]
+
+for (index,value) in myArray.enumerated() {
+    myArray[index] = value / 2
 }
 
-print(array)
-
-//update
+print (myArray)
 
 
 
