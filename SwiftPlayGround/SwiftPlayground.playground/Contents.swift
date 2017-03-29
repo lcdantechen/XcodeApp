@@ -51,12 +51,12 @@ let randomNumber = arc4random_uniform(6)
 
 // while loop
 
-//var i = 1
-//
-//while i < 10 {
-//    print (i)
-//    i += 1
-//}
+var i = 1
+
+while i < 10 {
+    print (i)
+    i += 1
+}
 
 
 //create an array with 4 names of friends 
