@@ -53,7 +53,7 @@ let randomNumber = arc4random_uniform(6)
 
 var i = 1
 
-while i < 10 {
+while i < 11 {
     print (i)
     i += 1
 }
@@ -77,6 +77,7 @@ for (index,value) in myArray.enumerated() {
 }
 
 print (myArray)
+
 
 
 
