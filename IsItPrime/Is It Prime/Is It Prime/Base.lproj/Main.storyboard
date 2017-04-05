@@ -57,6 +57,9 @@
                                     <constraint firstAttribute="height" constant="30" id="tfX-S2-SSH"/>
                                 </constraints>
                                 <state key="normal" title="Is It Prime?"/>
+                                <connections>
+                                    <action selector="isItPrime:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hNJ-B7-RKX"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HMn-I2-Xop">
                                 <rect key="frame" x="159" y="-146" width="42" height="21"/>
@@ -65,7 +68,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dFR-jF-bzV">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dFR-jF-bzV">
                                 <rect key="frame" x="16" y="187" width="288" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="mAk-I8-UQ4"/>
@@ -89,6 +92,10 @@
                             <constraint firstItem="goo-fq-uNU" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="qlB-7e-BXP"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="numberTextField" destination="Ekw-LU-X0a" id="Fj3-y9-1o2"/>
+                        <outlet property="resultLabel" destination="dFR-jF-bzV" id="2Cf-oh-ZnW"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
