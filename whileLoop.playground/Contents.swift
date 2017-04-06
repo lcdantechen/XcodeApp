@@ -4,7 +4,7 @@ import UIKit
 
 var str = "Hello, playground"
 
-var array = [7, 23, 98, 1, 0, 763]
+var array = [7, 23, 98, 1, 0, 763, 9]
 
 var i = 0
 
@@ -17,3 +17,5 @@ while i < array.count {
 }
 
 print(array)
+
+
